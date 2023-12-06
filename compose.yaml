@@ -11,7 +11,7 @@ services:
       - postgres-data:/var/lib/postgresql/data
 
   app:
-    image: 'bank-accounts-0.0.1-SNAPSHOT:latest'
+    image: 'bank-accounts:latest'
     build:
       context: .
     container_name: app
